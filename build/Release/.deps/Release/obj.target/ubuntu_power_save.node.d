@@ -1,1 +1,0 @@
-cmd_Release/obj.target/ubuntu_power_save.node := g++ -shared -pthread -rdynamic -m64  -Wl,-soname=ubuntu_power_save.node -o Release/obj.target/ubuntu_power_save.node -Wl,--start-group Release/obj.target/ubuntu_power_save/ubuntu_power_save.o -Wl,--end-group 
