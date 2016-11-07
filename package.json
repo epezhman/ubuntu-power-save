@@ -1,0 +1,24 @@
+{
+  "name": "ubuntu-power-save",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/epezhman/ubuntu-power-save.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/epezhman/ubuntu-power-save/issues"
+  },
+  "homepage": "https://github.com/epezhman/ubuntu-power-save#readme",
+  "dependencies": {
+    "bindings": "^1.2.1",
+    "nan": "^2.4.0"
+  },
+  "gypfile": true
+}
