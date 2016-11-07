@@ -2,9 +2,10 @@
   "name": "ubuntu-power-save",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "addon.js",
   "scripts": {
-    "test": "node test.js"
+    "test": "node test.js",
+    "install": "node-gyp rebuild"
   },
   "repository": {
     "type": "git",
